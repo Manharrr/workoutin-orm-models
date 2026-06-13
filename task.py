@@ -1,19 +1,19 @@
-text="manhar gurukkal ck"
+# text="manhar gurukkal ck"
 
-dup=""
-secdup=""
+# dup=""
+# secdup=""
 
-for i in text:
-    if i not in dup:
-        dup+=i
-    else: 
+# for i in text:
+#     if i not in dup:
+#         dup+=i
+#     else: 
         
-        secdup+=i
+#         secdup+=i
         
-# print(secdup)
-# print(dup)
+# # print(secdup)
+# # print(dup)
 
-print(secdup[1])
+# print(secdup[1])
 
 # def decor(func):
 #     def wrapper():
@@ -32,11 +32,12 @@ class A:
          print("a")
 
 class B(A):
-    def one(self):
-        print("b")
+    # def one(self):
+    #     print("b")
+    pass
         
     
-class C(B):
+class C(A):
     def one(self):
         print("c")
         
@@ -47,31 +48,20 @@ a=D()
 a.one()
 
 
-text="manhar gurukkal ck"
+# text="manhar gurukkal ck"
 
-dup=""
-secdup=""
+# dup=""
+# secdup=""
 
-for i in text:
-    if i not in dup:
-        dup+=i
-    else: 
+# for i in text:
+#     if i not in dup:
+#         dup+=i
+#     else: 
         
-        secdup+=i
+#         secdup+=i
         
-# print(secdup)
-# print(dup)
+# # print(secdup)
+# # print(dup)
 
-print(secdup[1])
-
-
-
-
-
-
-    
-        
-
-
-
+# print(secdup[1])
     
