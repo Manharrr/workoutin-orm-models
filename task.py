@@ -65,7 +65,3 @@ a.one()
 
 # print(secdup[1])
     
-
-class A:
-    def add(self):
-        print("hy")
