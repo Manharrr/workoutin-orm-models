@@ -27,25 +27,25 @@
 # print(one())
 
 
-class A:
-    def one(self):
-         print("a")
+# class A:
+#     def one(self):
+#          print("a")
 
-class B(A):
-    # def one(self):
-    #     print("b")
-    pass
+# class B(A):
+#     # def one(self):
+#     #     print("b")
+#     pass
         
     
-class C(A):
-    def one(self):
-        print("c")
+# class C(A):
+#     def one(self):
+#         print("c")
         
 
-class D(B,C):
-    pass
-a=D()
-a.one()
+# class D(B,C):
+#     pass
+# a=D()
+# a.one()
 
 
 # text="manhar gurukkal ck"
@@ -65,3 +65,19 @@ a.one()
 
 # print(secdup[1])
     
+class bank:
+    def __init__(self,name,age=18):
+        self.name=name
+        self.age=age
+
+def getname(self):
+    return self.name
+def setage(self,age):
+    if age <0 :
+        print("invalid age")
+    else:
+        self.age=age
+
+c=bank(name="manhar",age=10)
+print(c.getname())
+
