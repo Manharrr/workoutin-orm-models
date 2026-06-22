@@ -64,10 +64,5 @@
 # # print(dup)
 
 # print(secdup[1])
-    
-class bank:
-    def __init__(self,name,age=18):
-        self.name=name
-        self.age=age
-
+  
 
