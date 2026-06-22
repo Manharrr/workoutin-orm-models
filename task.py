@@ -70,14 +70,4 @@ class bank:
         self.name=name
         self.age=age
 
-def getname(self):
-    return self.name
-def setage(self,age):
-    if age <0 :
-        print("invalid age")
-    else:
-        self.age=age
-
-c=bank(name="manhar",age=10)
-print(c.getname())
 
