@@ -66,3 +66,5 @@
 # print(secdup[1])
   
 
+def one():
+    pass
